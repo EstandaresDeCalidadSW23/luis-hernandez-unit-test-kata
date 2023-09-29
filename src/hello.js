@@ -1,11 +1,8 @@
-
-  function hello(name = "World") {
-    if (name) {
-        return "Hello " + name + "!";
-      } else {
-        return "Hello World!";
-      }
+function hello(name = "World") {
+  if (name) {
+    return "Hello " + name + "!";
   }
-  
-  module.exports = hello;
+  return "Hello World!";
+}
 
+module.exports = hello;
